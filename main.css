@@ -1,8 +1,8 @@
 main {
   display: grid;
   grid-area: main;
-  grid-template-columns: 1fr 1fr 1fr auto;
-  width: 1200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
   margin: 0 auto;
   gap: 10px;
 }

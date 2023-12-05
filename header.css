@@ -5,25 +5,24 @@
   grid-template-columns: 1fr auto;
   align-items: center;
   position: fixed;
-  width: 100%;
 }
 
 .logo {
   max-width: 50px;
   padding: 30px;
-  margin-left: 320px;
+  margin-left: 40px;
   grid-column: 1;
   grid-row: 1;
 }
 header ul {
-  width: 500px;
+  width: 550px;
   padding: 0;
   display: flex;
   list-style: none;
   font-family: "myriad";
   grid-column: 1/2;
   grid-row: 1;
-  margin-left: 450px;
+  margin-left: 250px;
 }
 header li a {
   color: white;
@@ -41,7 +40,6 @@ header li a:hover {
   width: 600px;
   grid-row: 1;
   align-items: center;
-  margin-right: 260px;
 }
 .dados {
   background: white;
