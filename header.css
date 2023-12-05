@@ -1,0 +1,90 @@
+.header {
+  grid-area: header;
+  background-color: #eb6c05f9;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  max-width: 50px;
+  padding: 30px;
+  margin-left: 320px;
+  grid-column: 1;
+  grid-row: 1;
+}
+header ul {
+  width: 500px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  font-family: "myriad";
+  grid-column: 1/2;
+  grid-row: 1;
+  margin-left: 450px;
+}
+header li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 10px;
+}
+header li a:hover {
+  border-bottom: solid white 3px;
+  padding-bottom: 20px;
+}
+.form {
+  display: flex;
+  width: 600px;
+  grid-row: 1;
+  align-items: center;
+  margin-right: 260px;
+}
+.dados {
+  background: white;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+.input {
+  width: 60px;
+  font-size: 1em;
+  border-radius: 5px;
+  text-align: center;
+  border: 0;
+}
+.icone {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background: #f7f7f7fb;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.acessos::before {
+  content: "+";
+  color: white;
+  margin-left: 5px;
+}
+.acessos a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: "myriad";
+  margin: 10px;
+  font-weight: 600;
+}
+
+.botao {
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  font-size: 1em;
+}
+.botao:hover {
+  background: white;
+  color: #eb6c05f9;
+}

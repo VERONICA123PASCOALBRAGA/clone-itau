@@ -1,0 +1,147 @@
+main {
+  display: grid;
+  grid-area: main;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  width: 1200px;
+  margin: 0 auto;
+  gap: 10px;
+}
+main img {
+  width: 50px;
+}
+.oferta {
+  grid-column: 1/-1;
+  font-size: 0.785rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.oferta p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.oferta-item {
+  border: solid 1px #b8b2b2;
+  border-radius: 5px;
+  padding: 20px 20px 0 20px;
+  width: 360px;
+}
+.oferta-item h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #665e5e;
+  margin: 20px 0 10px 0;
+}
+.oferta-item p {
+  font-size: 1.2rem;
+  color: #665e5e;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.oferta-item ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin: 0;
+  align-items: center;
+}
+.oferta-item li {
+  grid-column: 2;
+  margin: 20px 0 20px 0;
+}
+.oferta-item.bi {
+  grid-column: 1;
+  margin: 20px 0 20px 0;
+}
+.conta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/-1;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.conta h1 {
+  color: #eb6c05f9;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+.conta p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #665e5e;
+  font-weight: 500;
+  grid-column: 1/-1;
+}
+.conta ul {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.conta ul span {
+  color: #eb6c05f9;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: solid 3px #eb6c05f9;
+  padding: 8px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.conta li {
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+.video {
+  margin-top: 30px;
+}
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/-1;
+  margin-bottom: 50px;
+}
+.vantagens .titulo {
+  color: #eb6c05f9;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+.vantagens .subtitulo {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #665e5e;
+  grid-column: 1/-1;
+  letter-spacing: -1px;
+}
+.vantagens h1 {
+  font-size: 1.3rem;
+}
+.vantagens p {
+  font-size: 1.1rem;
+  width: 250px;
+}
+.vantagens ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: 1/-1;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin-top: 20px;
+}
+.vantagens li {
+  border: white solid 1px;
+  border-radius: 10px;
+  box-shadow: #d3cbcb 0 0 8px 4px;
+  padding: 40px 20px 60px 20px;
+}

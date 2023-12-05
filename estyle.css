@@ -1,0 +1,25 @@
+@import "header.css";
+@import "introduçao.css";
+@import "main.css";
+@import "marketing.css";
+@import "tabelas.css";
+@font-face {
+  font-family: myriad;
+  src: url(./font/myriadregular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "myriad";
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  grid-template-areas:
+    "header header header"
+    "section section section "
+    "main main main"
+    "marketing marketing marketing"
+    "produtos produtos produtos"
+    "footer footer footer";
+}
